@@ -65,8 +65,10 @@ func main() {
 }
 ```
 则只需要 go build main.go 即可
+
 ![运行结果](https://raw.githubusercontent.com/AITown/go-learning/master/01goBuild/Image/result01.png)
-2. 同一个文件夹下一个包，多个文件问题
+
+2. 同一个文件夹下一个包，多个文件问题。
 如下图：gobuildTest文件夹下有两个go文件 
 ***
 ![代码目录](https://raw.githubusercontent.com/AITown/go-learning/master/01goBuild/Image/code03.png)
