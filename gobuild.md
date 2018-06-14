@@ -54,7 +54,7 @@ func main() {
 package main
 
 import (
-    "gobuildTestaddnum"
+    "gobuildTest/addnum"
 
     "fmt"
 )
