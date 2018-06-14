@@ -3,8 +3,7 @@
 
     <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false ignoreLink =true} -->
 ***
-@import "01goBuild\Image\code01.png"
-![代码目录](go-learning/01goBuild/Image/code01.png)
+![代码目录](go-learning/master/01goBuild/Image/code01.png)
  * [gobuildTest](#chapter-1)
     * [add.go](#section-11)
     * [main.go](#section-12)
