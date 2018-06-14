@@ -1,14 +1,15 @@
-1. 同一个文件夹下不能有两个package 否则 go build 会报错
-    如下：gobuildTestw文件夹下有两个包 mian包跟addnum包
+1. 同一个文件夹下不能有两个package， 否则 go build 会报错。
+   如下：gobuildTestw文件夹下有两个包 mian包跟addnum包
 
-    <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false ignoreLink =true} -->
 ***
 ![代码目录](https://raw.githubusercontent.com/AITown/go-learning/master/01goBuild/Image/code03.png)
- * [gobuildTest](#chapter-1)
+ * [:file_folder: gobuildTest](#chapter-1)
     * [add.go](#section-11)
     * [main.go](#section-12)
 
 ***
+
+
 * add.go
 ``` go {.line-numbers}
 package addnum
@@ -41,8 +42,8 @@ func main() {
 如下：包addnum 包在addnum文件夹里（最好包名跟文件名一致）
 ***
 ![代码目录](https://raw.githubusercontent.com/AITown/go-learning/master/01goBuild/Image/code02.png)
- * [gobuildTest](#chapter-1)
-    * [addnum](#section-11)
+ * [:file_folder: gobuildTest](#chapter-1)
+    * [:file_folder: addnum](#section-11)
       * [add.go](#section-111)
     * [main.go](#section-11)
 ***
@@ -72,7 +73,8 @@ func main() {
 如下图：gobuildTest文件夹下有两个go文件 
 ***
 ![代码目录](https://raw.githubusercontent.com/AITown/go-learning/master/01goBuild/Image/code03.png)
- * [gobuildTest](#chapter-1)
+
+ * [:file_folder: gobuildTest](#chapter-1)
     * [add.go](#section-111)
     * [main.go](#section-11)
 ***
