@@ -1,5 +1,5 @@
 1. 同一个文件夹下不能有两个package， 否则 go build 会报错。
-   如下：gobuildTestw文件夹下有两个包 mian包跟addnum包
+   如下：gobuildTest文件夹下有两个包 mian包跟addnum包
 
 ***
 ![代码目录](https://raw.githubusercontent.com/AITown/go-learning/master/01goBuild/Image/code03.png)
@@ -64,6 +64,7 @@ func main() {
     fmt.Println(sum, sum)
 
 }
+
 ```
 则只需要 go build main.go 即可
 
@@ -80,15 +81,17 @@ func main() {
 ***
 * add.go
 
-``` go{.line-numbers}
+``` go {.line-numbers}
 package main
 
 func add(a, b int) int {
     return a + b
 }
+
 ```
 * main.go
-``` go{.line-numbers}
+
+``` go {.line-numbers}
 package main
 
 import (
@@ -100,6 +103,7 @@ func main() {
     fmt.Println(sum, sum)
 
 }
+
 ```
 
 编译1：go build 文件夹名 会生成一个与文件夹名一样的exe 运行即可
