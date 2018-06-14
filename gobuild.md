@@ -4,6 +4,7 @@
     <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false ignoreLink =true} -->
 ***
 @import "01goBuild\Image\code01.png"
+![代码目录](go-learning/01goBuild/Image/code01.png)
  * [gobuildTest](#chapter-1)
     * [add.go](#section-11)
     * [main.go](#section-12)
@@ -76,8 +77,8 @@ func main() {
     * [main.go](#section-11)
 ***
 * add.go
-``` go{.line-numbers}
 
+``` go{.line-numbers}
 package main
 
 func add(a, b int) int {
@@ -100,7 +101,8 @@ func main() {
 ```
 
 编译1：go build 文件夹名 会生成一个与文件夹名一样的exe 运行即可
-
+@import "01goBuild\Image\result02.png"
 
 编译2：go build每一个go文件， 会生成一个build后的第一个 .go文件的名字的exe
 
+@import "01goBuild\Image\result03.png"
