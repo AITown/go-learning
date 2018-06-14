@@ -26,8 +26,8 @@ func Add(a, b int) int {
 package main
 
 import (
-    addnum
-    fmt
+   "addnum"
+    "fmt"
 )
 
 func main() {
@@ -54,9 +54,9 @@ func main() {
 package main
 
 import (
-    gobuildTestaddnum
+    "gobuildTestaddnum"
 
-    fmt
+    "fmt"
 )
 
 func main() {
@@ -95,7 +95,7 @@ func add(a, b int) int {
 package main
 
 import (
-    fmt
+    "fmt"
 )
 
 func main() {
