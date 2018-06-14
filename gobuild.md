@@ -3,7 +3,7 @@
 
     <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false ignoreLink =true} -->
 ***
-![代码目录](https://raw.githubusercontent.com/AITown/go-learning/master/01goBuild/Image/code01.png)
+![代码目录](https://raw.githubusercontent.com/AITown/go-learning/master/01goBuild/Image/code03.png)
  * [gobuildTest](#chapter-1)
     * [add.go](#section-11)
     * [main.go](#section-12)
@@ -36,11 +36,11 @@ func main() {
 }
 ```
 如果两个包在一个文件夹里  go build 会报错
-@import "01goBuild\Image\err01.png"
+![运行结果](https://raw.githubusercontent.com/AITown/go-learning/master/01goBuild/Image/err01.png)
 
 如下：包addnum 包在addnum文件夹里（最好包名跟文件名一致）
 ***
-@import "01goBuild\Image\code02.png"
+![代码目录](https://raw.githubusercontent.com/AITown/go-learning/master/01goBuild/Image/code02.png)
  * [gobuildTest](#chapter-1)
     * [addnum](#section-11)
       * [add.go](#section-111)
@@ -65,12 +65,11 @@ func main() {
 }
 ```
 则只需要 go build main.go 即可
-@import "01goBuild\Image\result01.png"
-
+![运行结果](https://raw.githubusercontent.com/AITown/go-learning/master/01goBuild/Image/result01.png)
 2. 同一个文件夹下一个包，多个文件问题
 如下图：gobuildTest文件夹下有两个go文件 
 ***
-@import "01goBuild\Image\code03.png"
+![代码目录](https://raw.githubusercontent.com/AITown/go-learning/master/01goBuild/Image/code03.png)
  * [gobuildTest](#chapter-1)
     * [add.go](#section-111)
     * [main.go](#section-11)
@@ -100,8 +99,8 @@ func main() {
 ```
 
 编译1：go build 文件夹名 会生成一个与文件夹名一样的exe 运行即可
-@import "01goBuild\Image\result02.png"
+![运行结果](https://raw.githubusercontent.com/AITown/go-learning/master/01goBuild/Image/result02.png)
 
 编译2：go build每一个go文件， 会生成一个build后的第一个 .go文件的名字的exe
 
-@import "01goBuild\Image\result03.png"
+![运行结果](https://raw.githubusercontent.com/AITown/go-learning/master/01goBuild/Image/result03.png)
